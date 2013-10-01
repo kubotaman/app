@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php var_dump($test)>
 <html>
     <head>
     </head>
