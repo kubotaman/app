@@ -8,4 +8,18 @@ class Test extends \Model {
         $results = \DB::query('SELECT * FROM bbs')->execute();
         return $results->as_array();
     }
+    
+    public static function insert_msg()
+    {
+        $query = DB::insert('bbs');
+        // 登録
+        $query->set(array(
+            'name' => 'John',
+            'msg' => 'Doe',
+            'update' => 'now()',
+            'deleted' => '0'
+        ));
+        $query->execute();
+        
+   }
 }
