@@ -30,7 +30,7 @@ return array(
                 )
         ),
         'testdb' => array(
-            'type'   => 'mysqli',
+            'type'   => 'mysql',
             'connection' => array(
                 'hostname'   => 'localhost',
                 'database'   => 'cas8rwl_aip',
