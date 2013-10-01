@@ -20,7 +20,8 @@ class Controller_Welcome extends Controller
 	 */
 	public function action_index()
 	{
-		return Response::forge(View::forge('welcome/index'));
+            $data['test'] = Test::get_results();
+            return Response::forge(View::forge('welcome/index',$data));
 	}
 
 	/**

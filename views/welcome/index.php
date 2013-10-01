@@ -33,7 +33,8 @@
 		body { margin: 0px 0px 40px 0px; }
 	</style>
 </head>
-<body>
+<body
+<?php var_dump($test); ?> 
 	<div id="header">
 		<div class="row">
 			<div id="logo"></div>
