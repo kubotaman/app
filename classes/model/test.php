@@ -15,8 +15,8 @@ class Test extends \Model {
         $query->table('bbs');
         // 登録
         $query->set(array(
-            'name' => 'John',
-            'msg' => 'Doe',
+            'name' => $insert['name'],
+            'msg' => $insert['msg'],
             'uptime' => 'now()',
             'deleted' => '0'
         ));
