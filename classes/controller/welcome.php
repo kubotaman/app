@@ -1,5 +1,5 @@
 <?php
-
+use \Model\Test;
 /**
  * The Welcome Controller.
  *
