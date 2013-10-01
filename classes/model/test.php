@@ -9,7 +9,7 @@ class Test extends \Model {
         return $results->as_array();
     }
     
-    public static function insert_msg()
+    public static function insert_msg($insert)
     {
         $query = DB::insert('bbs');
         // 登録
