@@ -17,7 +17,7 @@ class Test extends \Model {
         $query->set(array(
             'name' => 'John',
             'msg' => 'Doe',
-            'update' => 'now()',
+            'uptime' => 'now()',
             'deleted' => '0'
         ));
         $query->execute();
