@@ -8,7 +8,7 @@
 <hr>
 <form action="http://cas8rwl-alq-app000.c4sa.net/check/check/" method="POST">
     名前:<br /><input type="text" name="name"><br />
-    メッセージ：<br /><textarea name="name"></textarea>
+    メッセージ：<br /><textarea name="msg"></textarea>
     <br>
     <input type="submit" value="登録">
 </form>

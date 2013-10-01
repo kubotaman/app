@@ -21,8 +21,8 @@ class Controller_Check extends Controller
 	 */
 	public function action_check()
 	{
-            Input::post();
-            var_dump(Input::post());
+            $data = Input::post();
+            var_dump($data);
             //$view = array('hoge' => 'piyo');
             return Response::forge(View_Smarty::forge('welcome/index',$data));
             //return Response::forge(View::forge('welcome/index',$data));
