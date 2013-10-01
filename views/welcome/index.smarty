@@ -13,5 +13,6 @@
     <input type="submit" value="登録">
 </form>
 <hr>
+{{$test[0]['id']}}
 </body>
 </html>
