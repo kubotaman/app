@@ -21,7 +21,7 @@ class Controller_Welcome extends Controller
 	public function action_index()
 	{
             $data['test'] = Test::get_results();
-            $sample = $data;
+            $sample[] = $data;
             //$view = array('hoge' => 'piyo');
             //return Response::forge(View_Smarty::forge('welcome/index',$data));
             return Response::forge(View::forge('welcome/index',$sample));
