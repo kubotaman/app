@@ -12,6 +12,7 @@ class Test extends \Model {
     public static function insert_msg($insert)
     {
         $query = DB::insert('bbs');
+        $query->table('bbs');
         // 登録
         $query->set(array(
             'name' => 'John',
