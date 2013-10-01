@@ -1,5 +1,5 @@
 <?php
-use \Model\Test;
+//use \Model\Test;
 /**
  * The Welcome Controller.
  *
@@ -20,8 +20,10 @@ class Controller_Welcome extends Controller
 	 */
 	public function action_index()
 	{
-            $data['test'] = Test::get_results();
-            return Response::forge(View::forge('welcome/index',$data));
+            //$data['test'] = Test::get_results();
+            $view = array('hoge' => 'piyo');
+            //return Response::forge(View::forge('welcome/index',$data));
+            return Response::forge(View_Smarty::forge('welcome/index',$view));
 	}
 
 	/**
