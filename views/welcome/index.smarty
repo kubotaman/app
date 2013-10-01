@@ -13,6 +13,11 @@
     <input type="submit" value="登録">
 </form>
 <hr>
-{{$test[0]['id']}}
+{{foreach from=$test item=data name=loop}}
+    {{$data.id}}
+    {{$data.name}}
+    {{$data.msg}}
+    {{$data.update}}
+{{/foreach}}
 </body>
 </html>
