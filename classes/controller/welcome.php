@@ -24,7 +24,7 @@ class Controller_Welcome extends Controller
             
             //$view = array('hoge' => 'piyo');
             //return Response::forge(View_Smarty::forge('welcome/index',$data));
-            return Response::forge(View::forge('welcome/index',$sample));
+            return Response::forge(View::forge('welcome/index',$data));
 	}
 
 	/**
