@@ -32,7 +32,7 @@ return array(
         'testdb' => array(
             'type'   => 'mysql',
             'connection' => array(
-                'hostname'   => 'localhost',
+                'hostname'   => '175.184.33.52',
                 'database'   => 'cas8rwl_aip',
                 'username'   => 'cas8rwl_aip',
                 'password'   => '7Th4udXS',
