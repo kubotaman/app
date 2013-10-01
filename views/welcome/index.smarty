@@ -14,10 +14,11 @@
 </form>
 <hr>
 {{foreach from=$test item=data name=loop}}
-    {{$data.id}}
+    {{$data.id}}.
     {{$data.name}}
+    {{$data.update}}<br>
     {{$data.msg}}
-    {{$data.update}}
+    <hr>
 {{/foreach}}
 </body>
 </html>
