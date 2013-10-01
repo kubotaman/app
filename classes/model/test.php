@@ -11,7 +11,7 @@ class Test extends \Model {
     
     public static function insert_msg($insert)
     {
-        $query = DB::insert('users');
+        $query = \DB::insert('users');
         $query->table('bbs');
         // 登録
         $query->set(array(
