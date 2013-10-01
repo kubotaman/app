@@ -8,7 +8,9 @@
 <form action="" method="POST">
     名前:<br><input type="text" name="name">
     メッセージ：<br><textarea name="name"></textarea>
+    <br>
     <input type="submit" value="登録">
 </form>
+<hr>
 </body>
 </html>
